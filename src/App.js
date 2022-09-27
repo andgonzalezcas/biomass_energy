@@ -5,13 +5,11 @@ import {
 
 import { AiOutlineTeam } from 'react-icons/ai'
 import { BiHomeAlt } from 'react-icons/bi'
-
-//colors
-//#121709
-//#173814
-//#456625
-//#7f9b2e
-//#cdd632
+import { FiPackage } from 'react-icons/fi'
+import { GiGreenPower } from 'react-icons/gi'
+import { TbNorthStar } from 'react-icons/tb'
+import { WiAlien } from 'react-icons/wi'
+import { Link } from "react-router-dom";
 
 const App = () => {
   return (
@@ -24,46 +22,44 @@ const App = () => {
         rotationAngleInclusive={false}
       >
         <CircleMenuItem
-          onClick={() => alert("Clicked the item")}
-          tooltip={'Home'}
+          tooltip={'Biomass Energy'}
           style={{ background: '#456625' }}
         >
-          <BiHomeAlt className="w-10 h-10"/>
+          <Link to="/home">
+            <GiGreenPower className="w-10 h-10" />
+          </Link>
         </CircleMenuItem>
         <CircleMenuItem
-          onClick={() => alert("Clicked the item")}
+          tooltip={'North'}
+          style={{ background: '#456625' }}
+        >
+          <TbNorthStar className="w-10 h-10" />
+        </CircleMenuItem >
+        <CircleMenuItem
+          tooltip={'Alien mi so'}
+          style={{ background: '#7f9b2e' }}
+        >
+          <WiAlien className="w-10 h-10" />
+        </CircleMenuItem>
+        <CircleMenuItem
           tooltip={'Team'}
           style={{ background: '#7f9b2e' }}
         >
-          <AiOutlineTeam className="w-10 h-10"/>
+          <Link to="/team">
+            <AiOutlineTeam className="w-10 h-10" />
+          </Link>
         </CircleMenuItem>
         <CircleMenuItem
-          onClick={() => alert("Clicked the item")}
-          tooltip={'Home'}
+          tooltip={'Casita por que aja'}
           style={{ background: '#456625' }}
         >
-          A
+          <BiHomeAlt className="w-10 h-10" />
         </CircleMenuItem>
         <CircleMenuItem
-          onClick={() => alert("Clicked the item")}
           tooltip={'Home'}
           style={{ background: '#7f9b2e' }}
         >
-          A
-        </CircleMenuItem>
-        <CircleMenuItem
-          onClick={() => alert("Clicked the item")}
-          tooltip={'Home'}
-          style={{ background: '#456625' }}
-        >
-          A
-        </CircleMenuItem>
-        <CircleMenuItem
-          onClick={() => alert("Clicked the item")}
-          tooltip={'Home'}
-          style={{ background: '#7f9b2e' }}
-        >
-          A
+          <FiPackage className="w-10 h-10" />
         </CircleMenuItem>
       </CircleMenu>
     </div>
