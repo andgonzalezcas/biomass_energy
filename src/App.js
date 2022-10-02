@@ -4,10 +4,9 @@ import {
 } from "react-circular-menu";
 
 import { AiOutlineTeam } from 'react-icons/ai'
-import { BiHomeAlt } from 'react-icons/bi'
 import { BsFillFileEarmarkBarGraphFill } from 'react-icons/bs' 
 import { FiPackage } from 'react-icons/fi'
-import { GiGreenPower } from 'react-icons/gi'
+import { GiGreenPower, GiBookmark } from 'react-icons/gi'
 import { WiAlien } from 'react-icons/wi'
 import { Link } from "react-router-dom";
 
@@ -38,10 +37,10 @@ const App = () => {
           </Link>
         </CircleMenuItem >
         <CircleMenuItem
-          tooltip={'Alien mi so'}
-          style={{ background: '#7f9b2e' }}
+          tooltip={'Expertos'}
+          style={{ background: '#456625' }}
         >
-          <WiAlien className="w-10 h-10" />
+          <GiBookmark className="w-10 h-10" />
         </CircleMenuItem>
         <CircleMenuItem
           tooltip={'Team'}
@@ -52,13 +51,13 @@ const App = () => {
           </Link>
         </CircleMenuItem>
         <CircleMenuItem
-          tooltip={'Casita por que aja'}
-          style={{ background: '#456625' }}
+          tooltip={'Alien mi so'}
+          style={{ background: '#7f9b2e' }}
         >
-          <BiHomeAlt className="w-10 h-10" />
+          <WiAlien className="w-10 h-10" />
         </CircleMenuItem>
         <CircleMenuItem
-          tooltip={'Home'}
+          tooltip={'Posibles soluciones'}
           style={{ background: '#7f9b2e' }}
         >
           <FiPackage className="w-10 h-10" />
