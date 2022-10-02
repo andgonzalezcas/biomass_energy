@@ -20,38 +20,38 @@ const App = () => {
         radius={8}
         rotationAngleInclusive={false}
       >
-        <CircleMenuItem
-          tooltip={'Biomass Energy'}
-          style={{ background: '#456625' }}
-        >
-          <Link to="/home">
+        <Link to="/home">
+          <CircleMenuItem
+            tooltip={'Biomass Energy'}
+            style={{ background: '#456625' }}
+          >
             <GiGreenPower className="w-10 h-10" />
-          </Link>
-        </CircleMenuItem>
-        <CircleMenuItem
-          tooltip={'Graphs'}
-          style={{ background: '#456625' }}
-        >
-          <Link to={'/graph'}>
+          </CircleMenuItem>
+        </Link>
+        <Link to={'/graph'}>
+          <CircleMenuItem
+            tooltip={'Graphs'}
+            style={{ background: '#456625' }}
+          >
             <BsFillFileEarmarkBarGraphFill className="w-10 h-10" />
-          </Link>
-        </CircleMenuItem >
-        <CircleMenuItem
-          tooltip={'Expertos'}
-          style={{ background: '#456625' }}
-        >
-          <Link to={'/experts'}>
+          </CircleMenuItem >
+        </Link>
+        <Link to={'/experts'}>
+          <CircleMenuItem
+            tooltip={'Expertos'}
+            style={{ background: '#456625' }}
+          >
             <GiBookmark className="w-10 h-10" />
-          </Link>
-        </CircleMenuItem>
-        <CircleMenuItem
-          tooltip={'Team'}
-          style={{ background: '#7f9b2e' }}
-        >
-          <Link to="/team">
+          </CircleMenuItem>
+        </Link>
+        <Link to="/team">
+          <CircleMenuItem
+            tooltip={'Team'}
+            style={{ background: '#7f9b2e' }}
+          >
             <AiOutlineTeam className="w-10 h-10" />
-          </Link>
-        </CircleMenuItem>
+          </CircleMenuItem>
+        </Link>
         <CircleMenuItem
           tooltip={'Alien mi so'}
           style={{ background: '#7f9b2e' }}
