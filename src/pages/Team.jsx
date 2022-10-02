@@ -1,4 +1,5 @@
 import CardProfile from "../components/CardProfile"
+import LayerTittle from "../components/LayerTittle"
 
 const TEAM_DATA = [
   {
@@ -42,7 +43,8 @@ const TEAM_DATA = [
 
 const Team = () => {
   return (
-    <div className="w-screen h-screen flex flex-col items-center bg-hydrangeas overflow-x-auto gap-5 p-10">
+    <div className="w-screen h-screen flex flex-col items-center bg-hydrangeas overflow-x-auto gap-5 pb-10">
+      <LayerTittle title={'TEAM'}/>
       {
         TEAM_DATA.map((person, index) => {
           return <CardProfile
