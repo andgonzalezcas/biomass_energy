@@ -18,26 +18,26 @@ const TEAM_DATA = [
     image: require('../images/profiles/Santiago.png')
   },
   {
-    name: 'USER3',
-    career: 'CAREER3',
+    name: 'Carmen Lucia Cordoba Cleves',
+    career: 'Ingenieria',
     rol: 'CFO',
     rolFull: 'Chief Financial Officer'
   },
   {
-    name: 'USER4',
-    career: 'CAREER4',
+    name: 'Fabian Alfonso Hernandez Rodriguez',
+    career: 'Ingenieria Mecanica',
     rol: 'CEO',
     rolFull: 'Chief Executive Officer'
   },
   {
-    name: 'USER5',
-    career: 'CAREER5',
+    name: 'Juana Valentina Castillo Rojas',
+    career: 'Ingenieria Mecanica',
     rol: 'COO',
     rolFull: 'Chief Operating Officer'
   },
   {
-    name: 'USER6',
-    career: 'CAREER6',
+    name: 'Andres Camilo Paez Castillo',
+    career: 'Ingenieria',
     rol: 'CTO',
     rolFull: 'Chief Technology Officer'
   }
@@ -47,21 +47,24 @@ const Team = () => {
   return (
     <div className="w-screen h-screen flex flex-col items-center bg-hydrangeas overflow-x-auto gap-5 pb-10">
       <LayerTittle title={'TEAM'} />
-      <Fade duration={500}>
-        {
-          TEAM_DATA.map((person, index) => {
-            return <CardProfile
-              name={person.name}
-              career={person.career}
-              rol={person.rol}
-              rolFull={person.rolFull}
-              skills={person.skills}
-              key={index}
-              image={person.image}
-            />
-          })
-        }
-      </Fade>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <Fade duration={500}>
+          {
+            TEAM_DATA.map((person, index) => {
+              return <CardProfile
+                name={person.name}
+                career={person.career}
+                rol={person.rol}
+                rolFull={person.rolFull}
+                skills={person.skills}
+                key={index}
+                image={person.image}
+              />
+            })
+          }
+        </Fade>
+
+      </div>
     </div>
   )
 }

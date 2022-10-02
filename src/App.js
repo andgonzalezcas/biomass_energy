@@ -4,7 +4,7 @@ import {
 } from "react-circular-menu";
 
 import { AiOutlineTeam } from 'react-icons/ai'
-import { BsFillFileEarmarkBarGraphFill } from 'react-icons/bs' 
+import { BsFillFileEarmarkBarGraphFill } from 'react-icons/bs'
 import { FiPackage } from 'react-icons/fi'
 import { GiGreenPower, GiBookmark } from 'react-icons/gi'
 import { WiAlien } from 'react-icons/wi'
@@ -40,7 +40,9 @@ const App = () => {
           tooltip={'Expertos'}
           style={{ background: '#456625' }}
         >
-          <GiBookmark className="w-10 h-10" />
+          <Link to={'/experts'}>
+            <GiBookmark className="w-10 h-10" />
+          </Link>
         </CircleMenuItem>
         <CircleMenuItem
           tooltip={'Team'}

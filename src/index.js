@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Graph from "./pages/Graph";
 import PageNotFound from "./pages/PageNotFound"
+import Experts from "./pages/Experts";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path="home" element={<Home />} />
         <Route path="team" element={<Team />} />
         <Route path="graph" element={<Graph />} />
+        <Route path="experts" element={<Experts />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
