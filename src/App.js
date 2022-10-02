@@ -5,9 +5,9 @@ import {
 
 import { AiOutlineTeam } from 'react-icons/ai'
 import { BiHomeAlt } from 'react-icons/bi'
+import { BsFillFileEarmarkBarGraphFill } from 'react-icons/bs' 
 import { FiPackage } from 'react-icons/fi'
 import { GiGreenPower } from 'react-icons/gi'
-import { TbNorthStar } from 'react-icons/tb'
 import { WiAlien } from 'react-icons/wi'
 import { Link } from "react-router-dom";
 
@@ -30,10 +30,12 @@ const App = () => {
           </Link>
         </CircleMenuItem>
         <CircleMenuItem
-          tooltip={'North'}
+          tooltip={'Graphs'}
           style={{ background: '#456625' }}
         >
-          <TbNorthStar className="w-10 h-10" />
+          <Link to={'/graph'}>
+            <BsFillFileEarmarkBarGraphFill className="w-10 h-10" />
+          </Link>
         </CircleMenuItem >
         <CircleMenuItem
           tooltip={'Alien mi so'}

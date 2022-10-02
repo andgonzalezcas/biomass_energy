@@ -1,3 +1,5 @@
+import { Fade } from "react-awesome-reveal"
+
 import CardProfile from "../components/CardProfile"
 import LayerTittle from "../components/LayerTittle"
 
@@ -44,20 +46,22 @@ const TEAM_DATA = [
 const Team = () => {
   return (
     <div className="w-screen h-screen flex flex-col items-center bg-hydrangeas overflow-x-auto gap-5 pb-10">
-      <LayerTittle title={'TEAM'}/>
-      {
-        TEAM_DATA.map((person, index) => {
-          return <CardProfile
-            name={person.name}
-            career={person.career}
-            rol={person.rol}
-            rolFull={person.rolFull}
-            skills={person.skills}
-            key={index}
-            image={person.image}
-          />
-        })
-      }
+      <LayerTittle title={'TEAM'} />
+      <Fade duration={500}>
+        {
+          TEAM_DATA.map((person, index) => {
+            return <CardProfile
+              name={person.name}
+              career={person.career}
+              rol={person.rol}
+              rolFull={person.rolFull}
+              skills={person.skills}
+              key={index}
+              image={person.image}
+            />
+          })
+        }
+      </Fade>
     </div>
   )
 }

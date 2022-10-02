@@ -7,6 +7,7 @@ import './index.css';
 import App from './App';
 import Home from "./pages/Home";
 import Team from "./pages/Team";
+import PageNotFound from "./pages/PageNotFound"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
         <Route index element={<App />} />
         <Route path="home" element={<Home />} />
         <Route path="team" element={<Team />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

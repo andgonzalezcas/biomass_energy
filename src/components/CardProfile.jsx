@@ -4,7 +4,7 @@ const CardProfile = ({ name, career, rol, rolFull, image }) => {
       <img
         className="object-cover w-full h-60 rounded-t-lg md:w-48 md:rounded-none md:rounded-l-lg"
         src={image ? image : 'https://flowbite.com/docs/images/people/profile-picture-5.jpg'}
-        alt="user image"
+        alt="user"
       />
       <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">{name}</h5>
