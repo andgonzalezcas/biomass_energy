@@ -6,7 +6,7 @@ const data = [
     name: 'Sebastián Achury Ortiz',
     carge: 'Ingeniero mecánico',
     from: 'Universidad Nacional de Colombia',
-    description: ''
+    description: 'Nos ayudo en la carectarizacion de humedad y ceniza con tres muestras diferentes de pastos que se recolecto en diferentes partes de la universidad, ademas ayuda con los calculos para saber cuanto pasto se necesita para hacer funcionar un biodigestor o un gasificador.'
   }
 ]
 

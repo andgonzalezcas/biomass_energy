@@ -14,8 +14,7 @@ const TEAM_DATA = [
     name: 'Santiago Dleon Sanchez Romero',
     career: 'Ingenieria Mecatronica',
     rol: 'CCO',
-    rolFull: 'Chief Communications Officer',
-    image: require('../images/profiles/Santiago.png')
+    rolFull: 'Chief Communications Officer'
   },
   {
     name: 'Carmen Lucia Cordoba Cleves',
