@@ -18,7 +18,7 @@ const TEAM_DATA = [
   },
   {
     name: 'Carmen Lucia Cordoba Cleves',
-    career: 'Ingenieria',
+    career: 'Ingenieria Agricola',
     rol: 'CFO',
     rolFull: 'Chief Financial Officer'
   },
@@ -36,7 +36,7 @@ const TEAM_DATA = [
   },
   {
     name: 'Andres Camilo Paez Castillo',
-    career: 'Ingenieria',
+    career: 'Ingenieria agricola',
     rol: 'CTO',
     rolFull: 'Chief Technology Officer'
   }

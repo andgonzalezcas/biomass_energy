@@ -1,3 +1,4 @@
+import Carrousel from "../components/Carrousel"
 import ExpertCard from "../components/ExpertCard"
 import LayerTittle from "../components/LayerTittle"
 
@@ -12,7 +13,7 @@ const data = [
 
 const Experts = () => {
   return (
-    <div className="w-screen h-screen flex flex-col items-center bg-orange-fall overflow-x-auto gap-5 pb-10">
+    <div className="w-screen h-screen flex flex-col items-center bg-moon overflow-x-auto gap-5 pb-10">
       <LayerTittle title={'Expertos'}/>
       {
         data.map((expert, index) => {
