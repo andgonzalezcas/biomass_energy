@@ -18,7 +18,7 @@ const ExpertCard = ({name, carge, from, description, dataCarrousel}) => {
           <p className="font-light text-gray-600 mt-3">{carge}</p>
           <p className="mt-8 text-gray-500">{from}</p>
         </div>
-        <div className="mt-12 flex flex-col justify-center">
+        <div className="mt-12 flex flex-col justify-center mb-10">
           <p className="text-gray-600 text-center font-light lg:px-16">{description}</p>
         </div>
         {
