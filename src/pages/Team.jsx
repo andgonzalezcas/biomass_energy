@@ -39,6 +39,12 @@ const TEAM_DATA = [
     career: 'Ingenieria agricola',
     rol: 'CTO',
     rolFull: 'Chief Technology Officer'
+  },
+  {
+    name: 'Fabio',
+    career: 'Docente',
+    rol: 'Docente',
+    rolFull: 'Group Leader'
   }
 ]
 
