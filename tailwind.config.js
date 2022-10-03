@@ -8,7 +8,9 @@ module.exports = {
         'mushromm': "url('./images/background/mushromms-glowing_3840x2553_xtrafondos.com.jpg')",
         'hydrangeas': "url('./images/background/hydrangeas_3840x2400_xtrafondos.com.jpg')",
         'orange-fall': "url('./images/background/autumn-leaves-in-tree_3840x2400_xtrafondos.com.jpg')",
-        'moon': "url('./images/background/moon_3840x2400_xtrafondos.com.jpg')"
+        'moon': "url('./images/background/moon_3840x2400_xtrafondos.com.jpg')",
+        'sunrise-mountains': "url('./images/background/sunrise-in-the-mountains-digital-art_3840x2254_xtrafondos.com.jpg')",
+        'swirl-pattern': "url('./images/background/colors-in-swirl-pattern_3840x2160_xtrafondos.com.jpg')"
       },
       colors: {
         'green-10': '#cdd632',

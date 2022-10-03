@@ -3,7 +3,7 @@ import LayerTittle from "../components/LayerTittle"
 
 const PageNotFound = () => {
   return (
-    <div className="w-screen h-screen flex flex-col items-center bg-orange-fall overflow-x-auto gap-5 pb-10">
+    <div className="w-screen h-screen flex flex-col items-center bg-swirl-pattern overflow-x-auto gap-5 pb-10">
       <LayerTittle title={'404: PAGE NOT FOUND'} />
       <section className="flex items-center h-full p-16 bg-gray-900 text-gray-100 rounded-md">
         <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
