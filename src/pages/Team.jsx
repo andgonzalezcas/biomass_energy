@@ -41,10 +41,16 @@ const TEAM_DATA = [
     rolFull: 'Chief Technology Officer'
   },
   {
-    name: 'Fabio',
+    name: 'John Fabio Acuña Caita',
     career: 'Docente',
-    rol: 'Docente',
+    rol: 'Mentor',
     rolFull: 'Group Leader'
+  },
+  {
+    name: 'Pierre Medina',
+    career: 'Oficina de gestion ambiental',
+    rol: 'IL',
+    rolFull: 'Innovation Leader'
   }
 ]
 
