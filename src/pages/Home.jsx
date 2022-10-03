@@ -28,11 +28,11 @@ const Home = () => {
               ¿Pregunta Escencial?
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-100 lg:mb-8 md:text-lg lg:text-xl text-justify">
-              Añadir texto aqui
+              ¿Qué se puede hacer con los residuos de poda generados en la Universidad Nacional de Colombia, Sede Bogotá?
             </p>
           </div>
           <div className="mt-0 flex w-full justify-center items-center">
-            <img className="max-w-sm w-full" src={require('../images/unal_logo.png')} alt="unal logo" />
+            <img className="max-w-[10rem] w-full" src={'https://img.icons8.com/metro/400/ffffff/biomass.png'} alt="unal logo" />
           </div>
         </section>
         {/* section Arbol de problemas */}
@@ -40,7 +40,7 @@ const Home = () => {
         {/* section dinero gastado en la UN */}
         <section className="bg-opacity-50 bg-gray-900 grid max-w-screen-xl w-[90vw] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-3 rounded-md">
           <div className="mt-0 flex w-full justify-center items-center">
-            <img className="max-w-sm w-full" src="https://images.vexels.com/media/users/3/200981/isolated/preview/2018a0dd73f0f6d68a0e9d2c8bbdb984-mano-con-icono-de-dinero.png" alt="unal logo" />
+            <img className="max-w-[14rem] w-full" src="https://images.vexels.com/media/users/3/200981/isolated/preview/2018a0dd73f0f6d68a0e9d2c8bbdb984-mano-con-icono-de-dinero.png" alt="unal logo" />
           </div>
           <div className="place-self-center lg:col-span-2">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">

@@ -1,7 +1,6 @@
 const ProblemTree = () => {
   return (
-
-    <section className="bg-opacity-50 bg-gray-900 grid max-w-screen-xl w-[90vw] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 rounded-md" >
+    <section className="bg-opacity-50 bg-gray-900 grid max-w-screen-xl w-[90vw] px-4 pt-8 pb-4 mx-auto lg:gap-8 xl:gap-0 lg:pt-16 rounded-md" >
       <div className="mt-0 flex flex-col w-full justify-center items-center text-center">
         <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
           Arbol de problemas
