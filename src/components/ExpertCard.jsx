@@ -1,6 +1,6 @@
 import Carrousel from "./Carrousel"
 
-const ExpertCard = ({name, carge, from, description, dataCarrousel}) => {
+const ExpertCard = ({ name, carge, from, description, dataCarrousel }) => {
   return (
     <div className="p-16">
       <div className="p-8 bg-white shadow mt-24 bg-opacity-70 rounded-md">
@@ -22,9 +22,9 @@ const ExpertCard = ({name, carge, from, description, dataCarrousel}) => {
           <p className="text-gray-600 text-center font-light lg:px-16">{description}</p>
         </div>
         {
-          dataCarrousel 
-          ? (<Carrousel dataCarrousel={dataCarrousel}/>)
-          : (<></>)
+          dataCarrousel
+            ? (<Carrousel dataCarrousel={dataCarrousel} />)
+            : (<></>)
         }
       </div>
     </div>

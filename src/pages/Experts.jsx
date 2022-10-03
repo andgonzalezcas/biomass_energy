@@ -1,4 +1,3 @@
-import Carrousel from "../components/Carrousel"
 import ExpertCard from "../components/ExpertCard"
 import LayerTittle from "../components/LayerTittle"
 
