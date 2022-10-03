@@ -7,9 +7,9 @@ import './index.css';
 import App from './App';
 import Home from "./pages/Home";
 import Team from "./pages/Team";
-import Graph from "./pages/Graph";
-import PageNotFound from "./pages/PageNotFound"
 import Experts from "./pages/Experts";
+import PestelAnalysis from "./pages/PestelAnalysis";
+import PageNotFound from "./pages/PageNotFound"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +19,7 @@ root.render(
         <Route index element={<App />} />
         <Route path="home" element={<Home />} />
         <Route path="team" element={<Team />} />
-        <Route path="graph" element={<Graph />} />
+        <Route path="pestel-analysis" element={<PestelAnalysis />} />
         <Route path="experts" element={<Experts />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
