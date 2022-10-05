@@ -35,8 +35,6 @@ const Home = () => {
             <img className="max-w-[10rem] w-full" src={'https://img.icons8.com/metro/400/ffffff/biomass.png'} alt="unal logo" />
           </div>
         </section>
-        {/* section Arbol de problemas */}
-        <ProblemTree />
         {/* section dinero gastado en la UN */}
         <section className="bg-opacity-50 bg-gray-900 grid max-w-screen-xl w-[90vw] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-3 rounded-md">
           <div className="mt-0 flex w-full justify-center items-center">
@@ -54,10 +52,7 @@ const Home = () => {
           </div>
         </section>
         <section className="bg-opacity-50 bg-gray-900 grid max-w-screen-xl w-[90vw] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-3 rounded-md">
-          <div className="mt-0 flex w-full justify-center items-center">
-            <img className="max-w-sm w-full" src={require('../images/green-zones.png')} alt="unal logo" />
-          </div>
-          <div className="place-self-center lg:col-span-2">
+          <div className="place-self-center">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
               Zonas verdes en la UN
             </h1>
@@ -65,7 +60,12 @@ const Home = () => {
               Áreas de zonas verdes en la sede Bogotá de la Universidad Nacional de Colombia ​Equivalentes a 76 hectáreas
             </p>
           </div>
+          <div className="mt-0 flex w-full justify-center items-center lg:col-span-2">
+            <img className="max-w-xl w-full" src={require('../images/green-zones.png')} alt="unal logo" />
+          </div>
         </section>
+        {/* section Arbol de problemas */}
+        <ProblemTree />
       </Fade>
     </div>
   )

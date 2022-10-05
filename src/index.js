@@ -8,7 +8,7 @@ import App from './App';
 import Home from "./pages/Home";
 import Team from "./pages/Team";
 import Experts from "./pages/Experts";
-import PestelAnalysis from "./pages/PestelAnalysis";
+import PestalAnalysis from "./pages/PestalAnalysis";
 import PageNotFound from "./pages/PageNotFound"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,7 +19,7 @@ root.render(
         <Route index element={<App />} />
         <Route path="home" element={<Home />} />
         <Route path="team" element={<Team />} />
-        <Route path="pestel-analysis" element={<PestelAnalysis />} />
+        <Route path="pestal-analysis" element={<PestalAnalysis />} />
         <Route path="experts" element={<Experts />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>

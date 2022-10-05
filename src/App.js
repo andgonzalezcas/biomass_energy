@@ -31,7 +31,7 @@ const App = () => {
           tooltip={'Pestel Analysis'}
           style={{ background: '#456625' }}
         >
-          <Link to={'/pestel-analysis'} className="w-28 h-28 flex justify-center items-center rounded-full">
+          <Link to={'/pestal-analysis'} className="w-28 h-28 flex justify-center items-center rounded-full">
             <BsFillFileEarmarkBarGraphFill className="w-12 h-12" />
           </Link>
         </CircleMenuItem >
